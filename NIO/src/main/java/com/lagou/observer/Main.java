@@ -40,12 +40,12 @@ class Customer implements ProductObserver {
 
     @Override
     public void onPublished(Product product) {
-        System.out.println("[Customer] on product published: " + product);
+        System.out.println("[Customer] 收到了发布新产品了 on product published: " + product);
     }
 
     @Override
     public void onPriceChanged(Product product) {
-        System.out.println("[Customer] on product price changed: " + product);
+        System.out.println("[Customer] 收到了发布新价格了on product price changed: " + product);
     }
 }
 
